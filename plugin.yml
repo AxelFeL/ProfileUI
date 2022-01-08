@@ -1,0 +1,15 @@
+name: ProfileUI
+main: AxelFeL\Stats\Profile
+api: 4.0.0
+author: AxelFeL
+version: 1.0
+
+commands:
+  stats:
+    description: "Show Your Profile"
+    permission: stats.cmd
+
+permissions:
+  stats.cmd:
+    description: ProfileUI Permission
+    default: true
