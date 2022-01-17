@@ -5,7 +5,6 @@ namespace AxelFeL\Stats;
 use pocketmine\Server;
 use pocketmine\player\Player;
 
-use pocketmine\event\Listener;
 use pocketmine\plugin\PluginBase;
 
 use pocketmine\command\Command;
@@ -13,7 +12,7 @@ use pocketmine\command\CommandSender;
 
 use jojoe77777\FormAPI\SimpleForm;
 
-class Profile extends PluginBase implements Listener{
+class Profile extends PluginBase {
     
     public function onEnable(): void{
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
